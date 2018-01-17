@@ -1,0 +1,7 @@
+TLAModuleCTMediator.xcodeproj/xcuserdata/
+TLAModuleCTMediator.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+TLAModuleCTMediator.xcodeproj/project.xcworkspace/xcuserdata/

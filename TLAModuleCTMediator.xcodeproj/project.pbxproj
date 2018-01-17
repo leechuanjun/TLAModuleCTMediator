@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44C410CDED8B03C5170B36B0 /* libPods-TLAModuleCTMediator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB1EBA2E04754D77FC3FEEE /* libPods-TLAModuleCTMediator.a */; };
+		7ECDDC68200F3205000D85ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDDC67200F3205000D85ED /* AppDelegate.m */; };
+		7ECDDC6B200F3205000D85ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDDC6A200F3205000D85ED /* ViewController.m */; };
+		7ECDDC6E200F3205000D85ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECDDC6C200F3205000D85ED /* Main.storyboard */; };
+		7ECDDC70200F3205000D85ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECDDC6F200F3205000D85ED /* Assets.xcassets */; };
+		7ECDDC73200F3205000D85ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECDDC71200F3205000D85ED /* LaunchScreen.storyboard */; };
+		7ECDDC76200F3205000D85ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDDC75200F3205000D85ED /* main.m */; };
+		7ECDDC93200F3383000D85ED /* CTMediator+TLAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDDC92200F3383000D85ED /* CTMediator+TLAModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15FEB5E41C831116B6D9A56C /* Pods-TLAModuleCTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLAModuleCTMediator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLAModuleCTMediator/Pods-TLAModuleCTMediator.debug.xcconfig"; sourceTree = "<group>"; };
+		5FB1EBA2E04754D77FC3FEEE /* libPods-TLAModuleCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TLAModuleCTMediator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECDDC63200F3205000D85ED /* TLAModuleCTMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLAModuleCTMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECDDC66200F3205000D85ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ECDDC67200F3205000D85ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ECDDC69200F3205000D85ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7ECDDC6A200F3205000D85ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7ECDDC6D200F3205000D85ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ECDDC6F200F3205000D85ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ECDDC72200F3205000D85ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ECDDC74200F3205000D85ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ECDDC75200F3205000D85ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ECDDC91200F3383000D85ED /* CTMediator+TLAModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TLAModule.h"; sourceTree = "<group>"; };
+		7ECDDC92200F3383000D85ED /* CTMediator+TLAModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TLAModule.m"; sourceTree = "<group>"; };
+		E3C445129A2ABE8E5559D882 /* Pods-TLAModuleCTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLAModuleCTMediator.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLAModuleCTMediator/Pods-TLAModuleCTMediator.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ECDDC60200F3205000D85ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C410CDED8B03C5170B36B0 /* libPods-TLAModuleCTMediator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70649269B7013F260526E3FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15FEB5E41C831116B6D9A56C /* Pods-TLAModuleCTMediator.debug.xcconfig */,
+				E3C445129A2ABE8E5559D882 /* Pods-TLAModuleCTMediator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7ECDDC5A200F3205000D85ED = {
+			isa = PBXGroup;
+			children = (
+				7ECDDC65200F3205000D85ED /* TLAModuleCTMediator */,
+				7ECDDC64200F3205000D85ED /* Products */,
+				70649269B7013F260526E3FC /* Pods */,
+				B75AA28F7B0EA44F63914B8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7ECDDC64200F3205000D85ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ECDDC63200F3205000D85ED /* TLAModuleCTMediator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ECDDC65200F3205000D85ED /* TLAModuleCTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				7ECDDC90200F326C000D85ED /* TLAModuleCTMediator */,
+				7ECDDC66200F3205000D85ED /* AppDelegate.h */,
+				7ECDDC67200F3205000D85ED /* AppDelegate.m */,
+				7ECDDC69200F3205000D85ED /* ViewController.h */,
+				7ECDDC6A200F3205000D85ED /* ViewController.m */,
+				7ECDDC6C200F3205000D85ED /* Main.storyboard */,
+				7ECDDC6F200F3205000D85ED /* Assets.xcassets */,
+				7ECDDC71200F3205000D85ED /* LaunchScreen.storyboard */,
+				7ECDDC74200F3205000D85ED /* Info.plist */,
+				7ECDDC75200F3205000D85ED /* main.m */,
+			);
+			path = TLAModuleCTMediator;
+			sourceTree = "<group>";
+		};
+		7ECDDC90200F326C000D85ED /* TLAModuleCTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				7ECDDC91200F3383000D85ED /* CTMediator+TLAModule.h */,
+				7ECDDC92200F3383000D85ED /* CTMediator+TLAModule.m */,
+			);
+			path = TLAModuleCTMediator;
+			sourceTree = "<group>";
+		};
+		B75AA28F7B0EA44F63914B8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FB1EBA2E04754D77FC3FEEE /* libPods-TLAModuleCTMediator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ECDDC62200F3205000D85ED /* TLAModuleCTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ECDDC79200F3205000D85ED /* Build configuration list for PBXNativeTarget "TLAModuleCTMediator" */;
+			buildPhases = (
+				FF9178365FB975B68A45DFFD /* [CP] Check Pods Manifest.lock */,
+				7ECDDC5F200F3205000D85ED /* Sources */,
+				7ECDDC60200F3205000D85ED /* Frameworks */,
+				7ECDDC61200F3205000D85ED /* Resources */,
+				305FDD50AC98445BCF877C54 /* [CP] Embed Pods Frameworks */,
+				FFD52F1B2FADD1DE189AF3B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLAModuleCTMediator;
+			productName = TLAModuleCTMediator;
+			productReference = 7ECDDC63200F3205000D85ED /* TLAModuleCTMediator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ECDDC5B200F3205000D85ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lichuanjun;
+				TargetAttributes = {
+					7ECDDC62200F3205000D85ED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7ECDDC5E200F3205000D85ED /* Build configuration list for PBXProject "TLAModuleCTMediator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ECDDC5A200F3205000D85ED;
+			productRefGroup = 7ECDDC64200F3205000D85ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ECDDC62200F3205000D85ED /* TLAModuleCTMediator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ECDDC61200F3205000D85ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECDDC73200F3205000D85ED /* LaunchScreen.storyboard in Resources */,
+				7ECDDC70200F3205000D85ED /* Assets.xcassets in Resources */,
+				7ECDDC6E200F3205000D85ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305FDD50AC98445BCF877C54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLAModuleCTMediator/Pods-TLAModuleCTMediator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF9178365FB975B68A45DFFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TLAModuleCTMediator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD52F1B2FADD1DE189AF3B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLAModuleCTMediator/Pods-TLAModuleCTMediator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ECDDC5F200F3205000D85ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECDDC6B200F3205000D85ED /* ViewController.m in Sources */,
+				7ECDDC76200F3205000D85ED /* main.m in Sources */,
+				7ECDDC68200F3205000D85ED /* AppDelegate.m in Sources */,
+				7ECDDC93200F3383000D85ED /* CTMediator+TLAModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7ECDDC6C200F3205000D85ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ECDDC6D200F3205000D85ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ECDDC71200F3205000D85ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ECDDC72200F3205000D85ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ECDDC77200F3205000D85ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ECDDC78200F3205000D85ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ECDDC7A200F3205000D85ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15FEB5E41C831116B6D9A56C /* Pods-TLAModuleCTMediator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLAModuleCTMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.licj.TLAModuleCTMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ECDDC7B200F3205000D85ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C445129A2ABE8E5559D882 /* Pods-TLAModuleCTMediator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TLAModuleCTMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.licj.TLAModuleCTMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ECDDC5E200F3205000D85ED /* Build configuration list for PBXProject "TLAModuleCTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ECDDC77200F3205000D85ED /* Debug */,
+				7ECDDC78200F3205000D85ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ECDDC79200F3205000D85ED /* Build configuration list for PBXNativeTarget "TLAModuleCTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ECDDC7A200F3205000D85ED /* Debug */,
+				7ECDDC7B200F3205000D85ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ECDDC5B200F3205000D85ED /* Project object */;
+}

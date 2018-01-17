@@ -1,2 +1,1 @@
-# TLAModuleCTMediator
-基于CTMediator创建的功能模块
+pod "TLAModuleCTMediator"
